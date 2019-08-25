@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4446880363443343035
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4446880363443343032}
+  - component: {fileID: 4446880363443343033}
+  - component: {fileID: 4446880363443343034}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4446880363443343032
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4446880363443343035}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.1970009, y: -2.284023, z: -4.11293}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4446880363443343033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4446880363443343035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2abb859b22735c4eb8bc3bcba729fec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  downTiles:
+  - {fileID: 6566788780587041809, guid: 7de01123c5519094b90c5ff62166dd22, type: 3}
+  - {fileID: 7778352675190446385, guid: c0dfad0255864b34f9a05a1d900b38ed, type: 3}
+  - {fileID: 191647370126345355, guid: 5224490da9d8b904aba554dbfcc07335, type: 3}
+  player: {fileID: 0}
+--- !u!114 &4446880363443343034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4446880363443343035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f02514e536b46b4d9c62d287a3f2529, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  columns: 10
+  rows: 12
+  wall: {fileID: 5342605665156100875, guid: 372511e220fabee46be10a37ba96b344, type: 3}
+  cloud: {fileID: 7867283041773395326, guid: ade947ca05dafea4980b65e19f39d71e, type: 3}
+  backgroud: {fileID: 8269831386352112, guid: 03dfe9f074f67b2419bbe565ba44cc76, type: 3}
